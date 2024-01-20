@@ -26,5 +26,8 @@ async def cmd_test1(message: types.Message):
 async def main():
     await dp.start_polling(bot, skip_updates=True)
 
+
+# Test commit
+
 if __name__ == '__main__':
     asyncio.run(main())
